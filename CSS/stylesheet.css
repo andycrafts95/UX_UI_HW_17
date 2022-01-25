@@ -1,0 +1,10 @@
+/*style sheet*/
+.header {background-color: green;
+        border: none;
+    }
+.logo { position: left;
+        }     
+.navButton {text-align: center;
+            position: right;
+        }
+
