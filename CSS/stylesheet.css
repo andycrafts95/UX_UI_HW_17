@@ -1,10 +1,60 @@
 /*style sheet*/
-.header {background-color: green;
+/* header component */
+.header {background-color: #3a2d32;
         border: none;
     }
-.logo { position: left;
-        }     
-.navButton {text-align: center;
-            position: right;
-        }
+/* navigation buttons container */  
+.inline-block {text-align: center;
+            display: inline-block;
+            vertical-align: bottom;
+            width: 73%;
+            padding: 1%;
+            }
+/* logo from image */ 
+.logo { padding: 1%;
+    width: 23%;
+    }    
+/* navigation buttons individual with text */ 
+.navButton { width: 50%;
+            margin-left: auto;
+            }
+/* container for hero image and welcome text */
+.heroImgBox {background-color: #3a2d32;
+            position: relative;
+            text-align: center;
+            }
+/* container for welcome text */
+.textBox {position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+    }
+/* welcome text */ 
+.h1 { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: white;
+        font-size: 48px;
+        font-weight: 600;
+    }
+/* container for about me text, resume button, and headshot */
+.AboutMe {background-color: #3a2d32;
+        border: none;
+    }
+/* personal headshot image */
+.bioImg {}
 
+/* container for about me text */
+.aboutMeText {}
+
+/* about me text */ 
+.p {font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.footer {background-color: #3a2d32;
+        padding: 50%;
+    }
+.socialMediaButtons { display: inline-block;
+                    color: aqua;
+                }
+.h3 { font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;}
