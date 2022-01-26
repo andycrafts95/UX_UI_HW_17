@@ -2,12 +2,10 @@
 /* header component */
 .header {background-color: #3a2d32;
         border: none;
-        height: 200px;
     }
 /* navigation buttons container */  
-.inline-block {text-align: center;
-            display: inline-block;
-            vertical-align: bottom;
+.inline-block {display: inline-block;
+            vertical-align: top;
             width: 73%;
             padding: 1%;
             }
@@ -22,7 +20,7 @@
             color: white;
             }
 /* container for hero image and welcome text */
-.heroImgBox {background-color: #3a2d32;
+.heroImgBox {background-color: #green;
 
     /* parallax image*/ 
             background-image: url("image/heroimage.jpg");
@@ -33,7 +31,7 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            
+
             position: relative;
             text-align: center;
             }
