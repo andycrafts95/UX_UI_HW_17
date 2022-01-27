@@ -2,29 +2,24 @@
 /* header component */
 .header {background-color: #3a2d32;
         border: none;
-        display: inline-block;
         position: relative;
         width: 100%
         
     }
-.headerblock {display: inline-block;}
 /* navigation buttons container */  
 .inline-block {display: inline-block;
-            width: 73%;
-            padding: 1%;
+                padding: 1%;
             }
 /* logo from image */ 
-.logo { padding: 1%;
-        width: 23%;
-        align-items: left;
+.logo {width: 23%
     }    
 /* navigation buttons individual with text */ 
-.navButton { width: 50%;
-            display: inline-block;
-            margin-left: auto;
-            }
+/*.navButton {display: inline-block;
+            }*/
 .li1, .li2, .li3 {color: white;
-                display: inline-block;}
+                display: inline-block;
+                font-family: Arial, Helvetica, sans-serif;
+                }
 /* container for hero image and welcome text */
 .heroImgBox{
             background-image: url("images/heroimage.jpg");
@@ -41,7 +36,7 @@
     }
 /* welcome text */ 
 .h1 { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        color: yellow;
+        color: black;
         font-size: 64px;
         font-weight: 600;
     }
@@ -50,16 +45,16 @@
         border: none;
         padding: 5%;
     }
+.aboutBlock {display: inline-block;
+            padding: 5%;}
 /* personal headshot image */
 .bioImg { width: 40%;
         position: right;
     }
 
 /*container for about me text*/
-.AboutMe {display: inline-block;}
-.aboutMeText {padding: 5%;
-            width: 50%;
-        }
+.aboutMeText {width: 50%;
+            }
 
 /* about me text */ 
 .p {font-family: Arial, Helvetica, sans-serif;
