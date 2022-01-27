@@ -22,7 +22,6 @@
                 }
 /* container for hero image and welcome text */
 .heroImgBox{
-            background-image: url("images/heroimage.jpg");
             width: 100%;
             height: 500px;
             position: relative;
@@ -36,43 +35,47 @@
     }
 /* welcome text */ 
 .h1 { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        color: black;
+        color: white;
         font-size: 64px;
         font-weight: 600;
     }
 /* container for about me text, resume button, and headshot */
 .AboutMe {background-color: #3a2d32;
         border: none;
-        padding: 5%;
+        padding: 1%;
     }
 .aboutBlock {display: inline-block;
-            padding: 5%;}
+            }
 /* personal headshot image */
 .bioImg { width: 40%;
         position: right;
     }
 
 /*container for about me text*/
-.aboutMeText {width: 50%;
+.aboutMeText {width: 56%;;
             }
 
 /* about me text */ 
 .p {font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     color: white;
+    text-align: left;
+    padding: 20%;
+    
     }
+.resume {}
 /* footer with contact info and social media buttons */
 .footer {background-color:#3a2d32;
         position:relative;
         left: 0;
         bottom: 0;
         width: 100%;
+        height: 100px;
         color: white;
         text-align: center;
     }
 .socialMediaButtons {display: inline-block;
-                    color: aqua;
-                }
+                    }
 .h3 { font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     }
