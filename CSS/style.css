@@ -4,7 +4,7 @@
     background-color: #3a2d32;
     border: none;
     position: relative;
-    width: 100%   
+    width: 100% ;  
 }
 /* navigation buttons container */  
 .inline-block {
@@ -13,18 +13,22 @@
 }
 /* logo from image */ 
 .logo {
-    width: 23%
+    width: 25%;
+    vertical-align: middle;
 }    
 /* navigation buttons individual with text */ 
 .li1, .li2, .li3 {
     color: white;
     display: inline-block;
-    padding-right:20;
-    padding-left: 100;
-    padding-top: 20;
+    padding-right:20px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 24px;
     font-family:'Montserrat', sans-serif;
     position: relative;
+    vertical-align: middle;
+    margin: 40px;
  }
 /* container for hero image and welcome text */
 .heroImgBox{
@@ -85,6 +89,8 @@
     height: 200px;
     color: white;
     text-align: center;
+    margin-top: 1px;
+    padding: 10px;
 }
 .socialMediaButtons {
     display: inline-block;
